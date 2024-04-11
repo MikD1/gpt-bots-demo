@@ -5,7 +5,7 @@ https://cloud.yandex.ru/ru/docs/yandexgpt/quickstart#generate-text
 Создание API-ключа
 
 ```
-yc iam api-key create --service-account-name <service_account_name>
+yc iam api-key create --folder-name <folder> --service-account-name <service_account>
 ```
 
 ### Библиотека промтов
